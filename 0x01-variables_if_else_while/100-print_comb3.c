@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
-  * main - a program to prints all possibble different combinations
-  *
-  * Return: Always return 0
-  */
+ * main - a program to prints all possible different combinations of two digits
+ *
+ * Return: Always return 0
+ */
 
 int main(void)
 {
@@ -17,7 +17,7 @@ int main(void)
 	while (f < 58)
 	{
 		s = 48;
-		while (s < 5)
+		while (s < 58)
 		{
 			if (f != s && f < s)
 			{
